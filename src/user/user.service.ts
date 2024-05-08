@@ -48,7 +48,6 @@ export class UserService {
         email,
         name,
         password,
-        birthAt: birthAt ? new Date(birthAt) : null,
         role,
       },
       where: {

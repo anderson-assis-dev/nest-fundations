@@ -15,7 +15,7 @@ import { UpdatePutUserDto } from './dto/update-put-user-dto';
 import { UpdatePatchUserDto } from './dto/update-patch-user-dto';
 import { UserService } from './user.service';
 import { Role } from '../enums/role.enum';
-import { Roles } from '../decorators/role.decorator';
+import { Roles } from '../decorators/roles.decorator';
 import { RoleGuard } from '../guards/role.guard';
 @Controller('users')
 @UseGuards(RoleGuard)
